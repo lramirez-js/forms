@@ -1,7 +1,7 @@
 const App = () => {
   const submit = (ev) => {
     ev.preventDefault()
-    // We get the Form Data
+    // We set the Form Data
     const formData = new FormData(ev.target)
     // We transform the data into an array. Format: [key, value]
     const arrData = Array.from(formData)
